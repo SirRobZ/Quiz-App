@@ -76,6 +76,7 @@ function main() {
 				$('.nextButton').toggleClass('hidden');
 				$('.checkButton').toggleClass('hidden');
 			}
+			$('input[type="radio"]').attr('disabled', true);
 		})
 	}
 
